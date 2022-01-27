@@ -26,23 +26,24 @@ The problems that we solve in this repository are an example of *supervised lear
 
 In short, we can express a supervised machine learning model 
 mathematically as
+<br>
+<p align="center">
+y ~ g(X)
+</p>
 
-$$
-y \approx g(X)
-$$
 where
-* $g$ is the function that we want to learn with machine learning.
-* $X$ is the feature matrix in which rows are the feature vectors.
-* $y$ is the target variable.
+* *g* is the function that we want to learn with machine learning.
+* *X* is the feature matrix in which rows are the feature vectors.
+* *y* is the target variable.
 
-The goal of machine learning is to learn this function $g$ in such a way 
-that when it gets the matrix $X$, the output is close to the vector $y$.
+The goal of machine learning is to learn this function *g* in such a way 
+that when it gets the matrix *X*, the output is close to the vector *y*.
 
 There are different types of supervised machine learning problems, and 
-the types depends on the target variable $y$. These types are:
-* Regression: here the target variable $y$ is numeric, such as *rands* or  *weight*.
-* Classification: the target variable $y$ is categorical, such as *red*  or *blue* or *disease* and *no disease*. We can further split  classification into two subcategories: (1) *binary classification*, which has only two possible outcomes, such as spam or not spam, and (2) *multiclass classification*, which has more than two possible outcomes, such as a car make (BMW, Mercedes, Audi, etc.).
-* Ranking: the target variable $y$ is an ordering of elements within a group, such as the order of pages in a search-result page. The problem of ranking often happens in areas like search and recommendations, which I plan to do the project on in future.
+the types depends on the target variable *y*. These types are:
+* Regression: here the target variable *y* is numeric, such as *rands* or  *weight*.
+* Classification: the target variable *y* is categorical, such as *red*  or *blue* or *disease* and *no disease*. We can further split  classification into two subcategories: (1) *binary classification*, which has only two possible outcomes, such as spam or not spam, and (2) *multiclass classification*, which has more than two possible outcomes, such as a car make (BMW, Mercedes, Audi, etc.).
+* Ranking: the target variable *y* is an ordering of elements within a group, such as the order of pages in a search-result page. The problem of ranking often happens in areas like search and recommendations, which I plan to do the project on in future.
 
 Many different algorithms are used to solve each supervised learning problem. Some popular examples of supervised machine learning algorithms are:
 * Linear regression for regression problems.
